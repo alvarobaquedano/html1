@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio multimedia-Video</title>
+</head>
+<body>
+	<h1>VIDEO</h1>
+	<video src="felicidad.mp4" width="500" height="500" controls loop poster="pistola.jpg"></video>
+	<video width="500" height="500" controls>
+		<source src="felicidad.mp4" type="video/mp4">
+		<source src="felicidad.webm" type="video/webm">
+		<img src="pistola.jpg" alt="el video a fallado">
+	</video>
+	<ul>
+		<li> src: URL de origen del video</li>
+		<li> poster: imagen de portada</li>
+		<li> preload: cuandpo se va a cargar el video: auto (se carga al cargar la página), metadata: solo se cargan los metadatos, none: no se carga previamente el video</li>
+		<li> autoplay=true rep`roduce autmáticamente</li>
+		<li> loop: se carga el video en bucle </li>
+		<li> muted: cargar el video en modo silencio</li>
+		<li> controls: muestra la barra de reproducción</li>
+	</ul>
+</body>
+</html>

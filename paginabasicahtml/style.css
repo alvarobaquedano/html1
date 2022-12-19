@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: #ffcc99;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  width: 80px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1 {
+  color: dodgerblue;
+}
+

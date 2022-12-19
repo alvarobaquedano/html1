@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio1 multimedia</title>
+</head>
+<body>
+	<h1>Multimedia</h1>
+	<br>
+	<picture>
+		<source media="(min-width:300px)(max-width: 600px)" srcset="gato3.jpeg" type="">
+		<source media="(min-width:100px) and (max-width:300px)" srcset="pato2.jpg" type="">
+	<img alt="pato" src="pato3.jpeg" width="100" height="100">
+	</picture>
+	<video src="felicidad.mp4#t=50" onloadstart="50"  controls loop preload autoplay=true frameborder="0" allowfullscreen ></video>
+	
+		<form name="formulario1" method="get" action="">
+		
+		Nombre: <input type="text" name="nombre"><br>
+		Apellido: <input type="text" name="apellido"><br>
+		Contraseña: <input type="password" name="contraseña"><br>
+		<input type="submit" value="Enviar" name="enviar">
+	</form>
+	
+</body>
+</html>
