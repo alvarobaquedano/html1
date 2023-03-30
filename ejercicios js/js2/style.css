@@ -1,0 +1,27 @@
+.trilero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  #inicio{
+    text-align: center;
+  }
+  .imagen{
+    align-self: center;
+    justify-self: center;
+  }
+  .boton{
+    align-self: center;
+    justify-self: center;
+  }
+  #reloj{
+    text-align: center;
+  }
+  img{
+    width: 150px;
+    height: 100px;
+  
+  }
+.patata {
+    text-align: center;
+}

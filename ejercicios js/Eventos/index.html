@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body onload="cargar()">
+    <h1>Eventos</h1>
+    
+       <h2>Evento Click</h2>
+        <button onclick="mensaje()">Hacer click</button>
+
+        <h2>Evento Change</h2>
+        <p>selecciona asignatura</p>
+        <select id="asignatura" onchange="mostrarAsig()">
+            <option value="BBsDD">BBDD</option>
+            <option value="LM">LM</option>
+            <option value="EEDD">EEDD</option>
+        </select>
+        <p id="materia"></p>
+
+        <h2>Evento MouseOver y MouseOut</h2>
+        <img src="xd.png" alt="texto" onmouseover="cambiarImagen()" onmouseout="cambiarImagen2()" id="foto">
+
+        <h2>Evento Keydown</h2>
+        <input type="text" onkeydown="escribir(this)">
+        <p id="cuadro"></p>
+
+       <script src="main.js"></script>
+</body>
+</html>
