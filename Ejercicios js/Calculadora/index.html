@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio js Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora en JS</h1><br><br>
+    <div>
+    <label for="n1">Primer número:</label><br>
+        <input type="number" id="n1" name="n1"><br>
+    <label for="operadores">Operación:</label><br>
+    <select id="operadores" name="operadores">
+	<option value="+">+</option>
+	<option value="-">-</option>
+	<option value="*">*</option>
+	<option value="/">/</option>
+    </select>
+    <br>
+    <label for="n2">Segundo número:</label><br>
+    <input type="number" id="n2" name="n2"><br>
+    <button onclick="calcular()">Operar</button><br>
+    <label for="resultado">Resultado =</label>
+    <span id="resultado"></span>
+    </div>
+</body>
+</html>
